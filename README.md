@@ -1,6 +1,6 @@
 # Quantum State Estimation through Maximum Likelihood Estimation
 
-This work is a culmanation of my graduate school masters project at Stony Brook University in the [Quantum Information Science & Technology Group](http://qit.physics.sunysb.edu/wordpress/) under Dr. Eden Figueroa to perform quantum state tomography through maximum likelihood estimation. 
+This work is a culmanation of my graduate school masters project at Stony Brook University in the [Quantum Information Science & Technology Group](http://qit.physics.sunysb.edu/wordpress/) under Dr. Eden Figueroa to perform quantum state tomography through maximum likelihood estimation. The main files to perform the simulation of quantum states (Quadrature_Simulation_Methods.py) as well as to perform the maximum likelihood estimation of quantum states ($\textit{MLE.py}$) are described below. 
 
 ### Quadrature_Simulation_Methods.py (Quadrature Generation)
 
@@ -15,7 +15,7 @@ Usage:
 
 The Jupyter Notebook $\textit{Generate Quadratures Simulation.ipynb}$ contains several working examples of how to easily generate different sets of quadrature data. Datasets from this notebook can be easily saved to the $\textit{Data}$ folder to be used for Maximum Likelihood Reconstruction. 
 
-In order to use the functions in a different Python file, make sure to download the $\textit{MLE.py}$ file to the same folder as the new code and use the command:
+In order to use the functions in a different Python file, make sure to download the $\textit{Quadrature_Simulation_Methods.py}$ file to the same folder as the new code and use the command:
 
     from Quadrature_Simulation_Methods.py import *
 
