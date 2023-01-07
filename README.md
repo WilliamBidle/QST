@@ -1,6 +1,6 @@
 # Quantum State Estimation through Maximum Likelihood Estimation
 
-This work is a culmanation of my graduate school masters project at Stony Brook University in the [Quantum Information Science & Technology Group](http://qit.physics.sunysb.edu/wordpress/) under Dr. Eden Figueroa to perform quantum state tomography through maximum likelihood estimation. The main files to perform the simulation of quantum states ( $\textit{Quadrature_Simulation_Methods.py}$ ) as well as to perform the maximum likelihood estimation of quantum states ( $\textit{MLE.py}$ ) are described below. 
+This work is a culmanation of my graduate school masters project at Stony Brook University in the [Quantum Information Science & Technology Group](http://qit.physics.sunysb.edu/wordpress/) under Dr. Eden Figueroa to perform quantum state tomography through maximum likelihood estimation. The main files to perform the simulation of quantum states ($\textit{Quadrature_Simulation_Methods.py}$) as well as to perform the maximum likelihood estimation of quantum states ($\textit{MLE.py}$) are described below. 
 
 ### Quadrature_Simulation_Methods.py (Quadrature Generation)
 
