@@ -1,4 +1,6 @@
-# How to Use
+# Quantum State Estimation through Maximum Likelihood Estimation
+
+This work is a culmanation of my graduate school masters project at Stony Brook University in the [Quantum Information Science & Technology Group](http://qit.physics.sunysb.edu/wordpress/) under Dr. Eden Figueroa to perform quantum state tomography through maximum likelihood estimation. 
 
 ### Quadrature_Simulation_Methods.py (Quadrature Generation)
 
