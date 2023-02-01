@@ -194,9 +194,14 @@ def generate_quadratures(n_list, coefs, theta, x, visualize, save_data, filename
         
     if save_data == True:
         
-        np.savez("data/" + filename, theta = theta, x = quadratures) # saves the data in the MLE folder to be directly used
-
-        print('data saved at ' + filename + '.npz')
+        try:
+            np.savez("Data/" + filename, theta = theta, x = quadratures) # saves the data in the MLE folder to be directly used
+            print('data saved at ' + filename + '.npz')
+            
+        except:
+            os.mkdir('Data')
+            np.savez("Data/" + filename, theta = theta, x = quadratures) # saves the data in the MLE folder to be directly used
+            print('data saved at Data/' + filename + '.npz')
         
     return theta, quadratures
 
