@@ -15,7 +15,7 @@ Usage:
 
 The Jupyter Notebook ***Generate_Quadratures_Simulation.ipynb*** contains several working examples of how to easily generate different sets of quadrature data. Datasets from this notebook can be easily saved to a ***Data*** folder to be used for Maximum Likelihood Reconstruction. 
 
-In order to use the functions in a different Python file, make sure to download the ***Quadrature_Simulation_Methods.py*** file to the same folder as the new code and use the command:
+In order to use the functions in a different Python file, make sure to download the ***Simulate_QST.py*** file to the same folder as the new code and use the command:
 
     from Simulate_QST.py import *
 
