@@ -1,8 +1,14 @@
-# Quantum State Tomography through Maximum Likelihood Estimation
+# QST
 
-This work is a culmanation of my graduate school masters project at Stony Brook University in the [Quantum Information Science & Technology Group](http://qit.physics.sunysb.edu/wordpress/) under Dr. Eden Figueroa to perform quantum state tomography through maximum likelihood estimation. You can read more about the work in the document ***Quantum_State_Tomography.pdf***. The main files to perform the simulation of quantum states, through ***Simulate_QST.py***, as well as to perform the maximum likelihood estimation of quantum states, through ***QST_MLE.py***, are described below.
+QST is a public Python package for performing quantum state tomography through maximum likelihood estimation. This work is a culmanation of my graduate school masters project at Stony Brook University in the [Quantum Information Science & Technology Group](http://qit.physics.sunysb.edu/wordpress/) under Dr. Eden Figueroa. You can read more about the work in my included masters thesis, ***Quantum_State_Tomography.pdf***. 
 
-### Simulate_QST.py (Simulations of Quantum Statistics)
+## Installation
+
+QST is avaliable on the Python Package Index [PyPI](https://pypi.org/project/QST/) and can be installed through pip:
+
+    pip install QST
+
+### QST.QSim (Simulation of Quantum Statistics)
 
 Serves to simulate real world examples of quantum states that can be measured through techniques such as Optical Homodyne Detection.
 
@@ -13,15 +19,9 @@ It provides:
 
 Usage:
 
-The Jupyter Notebook ***Generate_Quadratures_Simulation.ipynb*** contains several working examples of how to easily generate different sets of quadrature data. Datasets from this notebook can be easily saved to a ***Data*** folder to be used for Maximum Likelihood Reconstruction. 
+The Jupyter Notebook ***QST_Simulation.ipynb*** in the ***examples*** folder contains several working examples of how to easily generate different sets of quadrature data. Datasets from this notebook can be saved to the ***Data*** subfolder to be used for Maximum Likelihood Reconstruction. The full list of functions, their usage, as well as some examples can be found within the ****QSim.py*** file.
 
-In order to use the functions in a different Python file, make sure to download the ***Simulate_QST.py*** file to the same folder as the new code and use the command:
-
-    from Simulate_QST.py import *
-
-The full list of functions, their usage, as well as some examples can be found within the above Python file.
-
-### QST_MLE.py (Maximum Likelihood Estimation)
+### QST.MLE (Maximum Likelihood Estimation)
 
 Serves to reconstruct the density matrix of a given quantum state, and can be used to extract amplitude and phase information. Our group has shown it to work with real data gathered in the lab through Homodyne Detection of several different coherent states.
 
@@ -32,10 +32,4 @@ It provides:
 
 Usage:
 
-The Jupyter Notebook ***MLE.ipynb*** contains an illustritive working example of how to reconstruct a density matrix given a set of quadrature data. It can easily be used in conjuction with the ***Generate_Quadratures_Simulation.ipynb***. 
-
-In order to use the functions in a different Python file, make sure to download the ***MLE_Functions.py*** file to the same folder as the new code and use the command:
-
-    from QST_MLE.py import *
-    
-The full list of functions, their usage, as well as some examples can be found within the above Python file.
+The Jupyter Notebook ***MLE.ipynb*** contains an illustritive working example of how to reconstruct a density matrix given a set of quadrature data. It can easily be used in conjuction with the ***Generate_Quadratures_Simulation.ipynb***. The full list of functions, their usage, as well as some examples can be found within the ****MLE.py*** file.
